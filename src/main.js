@@ -25,7 +25,7 @@ import 'primeicons/primeicons.css';
 
 // PrimeFlex
 import 'primeflex/primeflex.css';
-
+import Chart from 'primevue/chart';
 createApp(App)
     .use(PrimeVue, { ripple: true })
     .component('pv-card', Card)
@@ -37,4 +37,5 @@ createApp(App)
     .component('pv-menubar', MenuBar)
     .component('pv-toolbar', Toolbar)
     .component('pv-rating', Rating)
+    .component('pv-chart', Chart)
     .mount('#app')
